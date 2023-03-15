@@ -1,0 +1,31 @@
+{
+    "name": "tcgunel/asistbt-sms",
+    "description": "Asist BT SMS Service Component",
+    "type": "php",
+    "keywords": ["asistbt","sms"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tolga Can Günel",
+            "email": "tlgcngnl@gmail.com"
+        },
+        {
+            "name": "Mustafa Hayri ÜNEŞİ",
+            "email": "mhunesi@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-soap": "*",
+        "ext-dom": "*",
+        "illuminate/collections": "^8.83",
+        "illuminate/support": "^8.83"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tcgunel\\AsistbtSms\\": ""
+        }
+    }
+}
